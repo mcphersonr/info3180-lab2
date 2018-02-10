@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+
+{% block main %}
+<div class="pholder">
+    <div class="pupper">
+        <div class="profilephoto">
+            <img src="{{url_for('static', filename='images/coverphoto.jpg') }}">
+        </div>
+        </br>
+        <p class="profilename">Ramone McPherson</p>
+        <p class="profiledet"> @ramonemg </br> Kingston, Jamaica </br> {{date}}</p>
+    </div>
+    <div class="plower">
+        <p class="statement">I am a smart and talented young man who loves website design and development. Contact me if you'd like to work together on a new project</p>
+        <table>
+            <tfoot>
+                <tr><td>Posts</td><td>Following</td><td>Followers</td></tr>
+            </tfoot>
+            <tbody>
+                <tr><td>7</td><td>100</td><td>250</td></tr>
+            </tbody>
+        </table>
+        </br>
+        </br>
+         <button type="submit" class="follow">Follow</button>
+         </br>
+         </br>
+         </br>
+    </div>
+</div>
+{% endblock %}

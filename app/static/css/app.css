@@ -1,3 +1,88 @@
 body {
     padding-top: 5rem;
 }
+
+.holder{
+    position: relative;
+    top:20px;
+    left:20px;
+    width:200px;
+}
+
+.pupper{
+    background-color: maroon;
+    border-radius: 20px 20px 0px 0px;
+    margin-bottom:-18px;
+    height: auto;
+}
+
+.plower{
+    background-color: black;
+    border-radius: 0px 0px 20px 20px;
+    position:relative;
+    margin-top:-18px;
+    height: auto;
+}
+
+.profiledet{
+    font-family: fantasy;
+    font-size: large;
+    text-align: center;
+    color: lightblue;
+}
+
+.profilename{
+    font-family: cursive;
+    font-size: larger;
+    text-align: center;
+    color: lightblue;
+}
+.statement{
+    text-align: justify;
+    padding: 10px 80px 10px 80px;
+    font-family: cursive;
+    font-size: medium;
+    font-weight: bold;
+    color:maroon;
+}
+
+table{
+    position: relative;
+    left:180px;
+}
+
+td{
+    width:250px;
+    text-align: center;
+    font-weight: bolder;
+    color: lightblue;
+    font-size: large;
+}
+
+.follow{
+    border-radius: 15px;
+    position: relative;
+    left:480px;
+    width:150px;
+    height:40px;
+    background-color: black;
+    border: solid;
+    border-color: maroon;
+    color:maroon;
+    font-weight: bold;
+}
+
+.profilephoto{
+    height:300px;
+    width:300px;
+    position: relative;
+    left:400px;
+    top:20px;
+    border-radius: 150px;
+}
+
+img{
+    height: inherit;
+    width: inherit;
+    border-radius: inherit;
+}
